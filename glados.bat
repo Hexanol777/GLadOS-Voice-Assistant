@@ -1,0 +1,2 @@
+py GLadOS.py
+pause
