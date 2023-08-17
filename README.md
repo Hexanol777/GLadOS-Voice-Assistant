@@ -34,9 +34,9 @@ Edit the `config.json` file to specify your OpenAI API key, the text generation 
 
 ## Future Plans
 
-Future enhancements include:
+Future enhancements may include:
 
-- Implementing an offline model with low resource usage for offline interactions.
+- Implementation of an offline language model with low resource usage for offline interactions.
 - Adding a speech-to-text transcriber to enable voice-based interactions.
 - Enabling the assistant to open/start applications upon the user's request.
 
