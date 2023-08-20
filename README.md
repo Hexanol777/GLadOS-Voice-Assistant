@@ -39,6 +39,7 @@ Future enhancements may include:
 - Implementation of an offline language model with low resource usage for offline interactions.
 - Adding a speech-to-text transcriber to enable voice-based interactions.
 - Enabling the assistant to open/start applications upon the user's request.
+- May include a GUI in the future
 
 ## Credits
 
