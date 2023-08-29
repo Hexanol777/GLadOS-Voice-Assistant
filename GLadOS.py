@@ -63,11 +63,14 @@ def initVar():
 
 
 def glados_read(message):
-    text = message
+    text = input("Input: ")
 
+    # str format to add ,,, at the start and end
+    text = ",,, {} ,,,".format(text)
+    
     # Tokenize, clean and phonemize input text
     x = prepare_text(text).to('cpu')
-
+    
     with torch.no_grad():
 
         # Generate generic TTS-output
