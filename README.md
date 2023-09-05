@@ -14,7 +14,7 @@ The core features of the GLadOS Voice Assistant include:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Hexanol777/glados-voice-assistant.git
+    git clone https://github.com/Hexanol777/GLadOS-Voice-Assistant.git
     ```
 2. Install the dependencies:
    ```bash
