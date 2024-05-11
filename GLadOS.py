@@ -63,7 +63,7 @@ def initVar():
 
 
 def glados_read(message):
-    text = input("Input: ")
+    text = message
 
     # str format to add ,,, at the start and end
     text = ",,, {} ,,,".format(text)
@@ -111,7 +111,7 @@ def chat():
             break
         response = llm_model(message)
         print(f"GLadOS: {response}")
-        glados_read(message)
+        glados_read(response)
         time.sleep(1)
 
 
